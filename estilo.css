@@ -61,31 +61,13 @@ body {
    background-color: #90CAF9;
 }
 
-section {
+.section_home {
     background-color: #eef9ff;
-    height: 100vh;
-    width: 100%;
+    overflow: auto;
+    height: calc(100vh - 64px);
 }
 
-.pagina {
-    background-color: #eef9ff;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 1000px;
-    height: 100vh;
-    padding: 24px
-}
-
-.apresentacao {
-    display: inline-block;
-}
-
-.figura {
-  display: inline-block;
-}
-
-.figura > img {
-    width: 350px;
+.imagem_home {
+    width: 500px;
+    margin-left: 48px;
 }
