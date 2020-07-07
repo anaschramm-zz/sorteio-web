@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sortei-me - Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+
+    <header class="header header_branco">
+        <div class="container">
+            <img src="assets/logo.png" alt="Caixa de presente">
+            <nav>
+                <ul class="menu_list">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <a class="link_destaque" href="#">Criar Sorteio</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="div_topo">
+        <div class="container">
+            <h1 class="texto_topo">Contato</h1>
+        </div>
+    </div>
+
+    <div class="div_form">
+        <h1>Entre em contato conosco</h1>
+        <form class="formulario">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" placeholder="Nome"><br>
+            <label for="nome">Email:</label><br>
+            <input type="text" id="email" placeholder="Email"><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="text" id="telefone" placeholder="Telefone"><br>
+            <label for="descricao">Descrição:</label><br>
+            <textarea class="text_area"></textarea>
+        </form>
+        <a class="link_destaque link_enviar" href="#">Enviar</a>
+    </div>
+
 </body>
+
 </html>
