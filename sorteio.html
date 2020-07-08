@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sortei-me - Sorteio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div>
-        <div>
-            <h1>Participantes</h1>
+
+<body class="page_sorteio">
+    <section class="container">
+        <div class="box_sorteio">
+            <input type="text" id="nomeparticipante" placeholder="Digite o nome">
+            <button class="button_div button_adicionar">Adicionar</button>
+            <hr>
+                <!-- <button class="button_div button_reset">Reiniciar sorteio</button> -->
+
         </div>
         <div>
-            <button>Sortear Agora</button>
+            <button class='button_sorteio'>Sortear Agora</button>
         </div>
-        <div>
-            <h1>Sorteados</h1>
+        <div class="box_sorteio">
+            <h1>Os nomes sorteados foram:</h1>
+            <hr>
+                <!-- <button class="button_div button_reset">Reiniciar ganhadores</button> -->
         </div>
-    </div>
+    </section>
 </body>
+
 </html>
