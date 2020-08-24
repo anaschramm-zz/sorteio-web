@@ -250,3 +250,9 @@ hr {
 .imagem_erro {
     width:500px;
 }
+
+.box_participantes {
+    width: 330px;
+    height: 600px;
+    padding: 8px;
+}

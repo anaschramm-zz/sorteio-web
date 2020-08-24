@@ -13,20 +13,22 @@
     <section class="container">
         <div class="box_sorteio">
             <input type="text" id="nomeparticipante" placeholder="Digite o nome">
-            <button class="button_div button_adicionar">Adicionar</button>
+            <button class="button_div button_adicionar" onclick="addParticipante()">Adicionar</button>
             <hr>
-                <!-- <button class="button_div button_reset">Reiniciar sorteio</button> -->
-
+            <!-- <button class="button_div button_reset">Reiniciar sorteio</button> -->
+            <div class="box_participantes" id="nome_participantes"></div>
         </div>
         <div>
             <button class='button_sorteio'>Sortear Agora</button>
         </div>
-        <div class="box_sorteio">
+        <div class="box_sorteio" id="box_resultado">
             <h1>Os nomes sorteados foram:</h1>
             <hr>
-                <!-- <button class="button_div button_reset">Reiniciar ganhadores</button> -->
+            <!-- <button class="button_div button_reset">Reiniciar ganhadores</button> -->
+            <div class="box_participantes" id="nome_resultado"></div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
